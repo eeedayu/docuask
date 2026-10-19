@@ -1,0 +1,8 @@
+# Install torch CPU-only FIRST to keep it lean:
+#   ./venv/bin/pip install torch --index-url https://download.pytorch.org/whl/cpu
+qdrant-client>=1.12
+sentence-transformers>=3.0
+pypdf>=4.0
+rank-bm25>=0.2.2
+streamlit>=1.32
+ollama>=0.4

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Secrets (never commit)
+.env
+.streamlit/secrets.toml
+
+# Qdrant local storage (never commit binaries)
+/qdrant_storage/
+
+# Uploaded sample docs: keep the dir, not the files
+/data/*
+!/data/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,20 @@
+{"question": "DocuAsk 是做什么的？", "expected_section": "项目定位", "keywords": ["RAG", "知识库"]}
+{"question": "引用溯源是什么意思？", "expected_section": "核心功能", "keywords": ["引用", "原文"]}
+{"question": "支持上传哪些格式的文档？", "expected_section": "核心功能", "keywords": ["PDF", "Markdown"]}
+{"question": "答案是什么语言？", "expected_section": "核心功能", "keywords": ["中文"]}
+{"question": "DocuAsk 适合什么场景？", "expected_section": "适用场景", "keywords": ["作品集", "MVP"]}
+{"question": "文档是怎么切分的？", "expected_section": "文档切分", "keywords": ["800", "标题"]}
+{"question": "切块的 overlap 是多少字符？", "expected_section": "文档切分", "keywords": ["120"]}
+{"question": "用什么模型做向量？", "expected_section": "向量化", "keywords": ["BGE-M3"]}
+{"question": "向量维度是多少？", "expected_section": "向量化", "keywords": ["1024"]}
+{"question": "向量检索用的距离度量是什么？", "expected_section": "向量化", "keywords": ["余弦"]}
+{"question": "混合检索是怎么做的？", "expected_section": "混合检索", "keywords": ["BM25", "RRF"]}
+{"question": "RRF 的 k 参数取多少？", "expected_section": "混合检索", "keywords": ["60"]}
+{"question": "用什么模型做重排？", "expected_section": "重排", "keywords": ["reranker"]}
+{"question": "重排后取前几个引用？", "expected_section": "重排", "keywords": ["top5"]}
+{"question": "答案由哪个模型生成？", "expected_section": "答案生成", "keywords": ["qwen3"]}
+{"question": "生成答案时有什么约束？", "expected_section": "答案生成", "keywords": ["编造"]}
+{"question": "Qdrant 跑在哪里？", "expected_section": "向量库", "keywords": ["6333", "Docker"]}
+{"question": "业务集合名是什么？", "expected_section": "向量库", "keywords": ["docuask"]}
+{"question": "UI 怎么启动，端口是多少？", "expected_section": "启动步骤", "keywords": ["8501"]}
+{"question": "上传的文档存在哪个目录？", "expected_section": "上传文档", "keywords": ["uploads"]}
