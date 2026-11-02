@@ -18,7 +18,7 @@ def generate_answer(query: str, evidence: list, model: str = MODEL) -> str:
     if not evidence:
         return ""
     ctx = "\n\n".join(
-        f"[{i}] (来源:{e.source} / {e.section or 正文})\n{e.text}"
+        f"[{i}] (来源:{e.source} / {e.section or '正文'})\n{e.text}"
         for i, e in enumerate(evidence, 1)
     )
     try:
